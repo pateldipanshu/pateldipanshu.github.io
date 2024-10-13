@@ -1,0 +1,159 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #007acc;
+}
+
+nav .logo {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #007acc;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#hero .btn {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #007acc;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#hero .btn:hover {
+    background-color: #fff;
+}
+
+/* Sections */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #007acc;
+}
+
+/* About Section */
+#about p {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Skills Section */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-card {
+    background-color: #ffcc00;
+    color: #007acc;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: transform 0.3s;
+}
+
+.skill-card:hover {
+    transform: scale(1.1);
+}
+
+/* Projects Section */
+.project {
+    margin-bottom: 30px;
+}
+
+.project h3 {
+    font-size: 1.5em;
+    color: #007acc;
+}
+
+.project p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 1.1em;
+}
+
+#contact a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: #ffcc00;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 0.9em;
+}
