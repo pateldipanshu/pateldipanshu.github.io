@@ -6,13 +6,6 @@ This portfolio showcases my **projects, skills, and experience** as a developer 
 🌐 **Website:**  
 https://pateldipanshu.github.io/
 
----
-
-## 🖼️ Screenshots
-_(Add screenshots here if needed)_
-
----
-
 ## 🚀 Features
 
 - 🎨 Clean and modern UI design  
